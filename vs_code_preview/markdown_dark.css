@@ -1,0 +1,82 @@
+/* VS Code Dark Theme Markdown CSS */
+/* =============================== */
+
+/* VS Code Markdown Links */
+.vscode-dark a {
+	color: #61AFEF;
+}
+
+/* VS Code Markdown Headers */
+.vscode-dark h1,
+.vscode-dark h2,
+.vscode-dark h3,
+.vscode-dark h4,
+.vscode-dark h5,
+.vscode-dark h6 {
+	font-weight: 600;
+	color: #0098b3;
+}
+
+/* VS Code Markdown Code */
+.vscode-dark,
+.vscode-dark pre code {
+	color: #ABB2BF;
+}
+
+.vscode-dark code {
+	color: #7e7cff;
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code>div {
+	background-color: #2C323C;
+}
+
+/* VS Code Markdown Horizantal Rules */
+.vscode-dark h1,
+.vscode-dark hr{
+	border-color: #2C323C;
+}
+
+/* VS Code Markdown Table  */
+.vscode-dark table > thead > tr > th,
+.vscode-dark table > thead > tr > td,
+.vscode-dark table > tbody > tr > th,
+.vscode-dark table > tbody > tr > td {
+	padding: 5px 10px;
+	border-color: #bdbcbc;
+}
+
+.vscode-dark table > thead > tr > th {
+	color: #0098b3;
+	border-color: #0098b3;
+	border-width: 2px;
+}
+
+.vscode-dark table > tbody > tr > td {
+	border-color: #bdbcbc;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: #bdbcbc;
+}
+
+.vscode-dark table > tbody {
+	background-color: #2C323C;
+}
+
+/* VS Code Markdown Block Quote */
+.vscode-dark blockquote {
+	/*color: #5C6370;*/
+	color: #81fc76;
+	font-style: italic;
+	/*text-decoration-color: */
+    /*background: transparent;*/
+	background: #2C323C;
+	border-color: #bdbcbc;
+}
